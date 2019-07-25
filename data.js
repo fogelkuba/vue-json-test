@@ -1,4 +1,4 @@
-{
+export default {
   "main": {
     "title": "Hello to my site!",
     "description": "Check out this awesome Project"
