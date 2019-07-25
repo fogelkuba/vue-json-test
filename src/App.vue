@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <MainComponent />
-    <ContectComponent />
+    <MainComponent :data="jsonData.main" />
+    <ContectComponent :data="jsonData.contact"/>
 <!--    {{ jsonData }}-->
   </div>
 </template>
@@ -13,7 +13,7 @@
 import MainComponent from "./components/MainComponent";
 import ContectComponent from "./components/ContectComponent";
 
-import json from "../data";
+import data from "../data";
 
 export default {
   name: "app",
@@ -28,8 +28,8 @@ export default {
   },
   computed: {
     jsonData() {
-      console.log(json);
-      return json;
+      console.log(data);
+      return data;
     }
   }
 };

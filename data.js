@@ -1,9 +1,9 @@
 export default {
-  "main": {
+  main: {
     "title": "Hello to my site!",
     "description": "Check out this awesome Project"
   },
-  "contact": {
+  contact: {
     "email": "test@test.com",
     "phone": "+48 111 222 333"
   }
