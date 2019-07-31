@@ -19,8 +19,8 @@ export default {
   name: "app",
   data() {
     return {
-      // jsonData: JSON.parse(json)
-    };
+ 
+   };
   },
   components: {
     MainComponent,
@@ -43,5 +43,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+pre {
+  color: #999;
+  font-weight: bold;
 }
 </style>
